@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../../assets/Image/logo.svg";
+import Logo from "/Image/logo.svg";
 import { Link } from "react-router-dom";
 import "../../index.css";
 import "../../style.css";
@@ -44,9 +44,7 @@ function Header() {
         </div>
 
         <div
-          className={`${
-            nav ? "block" : "hidden"
-          } w-full  md:block md:w-auto md:flex`}
+          className={`${nav ? "block" : "hidden"} w-full   md:w-auto md:flex`}
         >
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 md:border-0">
             {navlinks.map((link, index) => (

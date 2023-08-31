@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/Image/logo-foot.svg";
+import Logo from "/Image/logo.svg";
 import {
   FaFacebook,
   FaDiscord,
@@ -42,7 +42,7 @@ const Footer = () => {
             </div>
             {/* Navigation*/}
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray uppercase">
+              <h2 className="mb-6 text-sm font-semibold text-white uppercase">
                 Navigation
               </h2>
               <ul className="text-gray font-medium">
@@ -70,7 +70,7 @@ const Footer = () => {
             </div>
             {/* Address */}
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray uppercase">
+              <h2 className="mb-6 text-sm font-semibold text-white uppercase">
                 Address
               </h2>
               <ul className="text-gray font-medium">
