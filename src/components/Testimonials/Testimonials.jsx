@@ -1,15 +1,46 @@
 import React from "react";
-import Teamcontainer from "../Team/Teamcontainer";
+import Testimonialscontent from "../Testimonials/Testimonialscontent";
 
 const Testimonials = () => {
-  const Teamcontainer = [
+  const testimonialsData = [
     {
-      Img: "",
+      Img: "public/Image/1.png",
       Comment: "lorem",
       Name: "Rihsabh",
       occupation: "ghhgjh",
     },
+    {
+      Img: "public/Image/2.png",
+      Comment: "fashjfhajksfhjk",
+      Name: "Rihsaafsfafafbh",
+      occupation: "gaaaaaaaaaaaaahhgjh",
+    },
+    {
+      Img: "public/Image/3.png",
+      Comment: "fashjfhajksfhjk",
+      Name: "Rihsaafsfafafbh",
+      occupation: "gaaaaaaaaaaaaahhgjh",
+    },
+    {
+      Img: "public/Image/4.png",
+      Comment: "fashjfhajksfhjk",
+      Name: "Rihsaafsfafafbh",
+      occupation: "gaaaaaaaaaaaaahhgjh",
+    },
+    {
+      Img: "public/Image/5.png",
+      Comment: "fashjfhajksfhjk",
+      Name: "Rihsaafsfafafbh",
+      occupation: "gaaaaaaaaaaaaahhgjh",
+    },
+    {
+      Img: "public/Image/6.png",
+      Comment: "fashjfhajksfhjk",
+      Name: "Rihsaafsfafafbh",
+      occupation: "gaaaaaaaaaaaaahhgjh",
+    },
   ];
+
   return (
     <section className="text-primary body-font">
       <div className="container px-5 py-24 mx-auto">
@@ -17,16 +48,15 @@ const Testimonials = () => {
           Testimonials
         </h1>
         <div className="flex flex-wrap -m-4">
-          {Teamcontainer.map((items) => {
-            return (
-              <Teamcontainer
-                Img={items.Img}
-                Comment={items.Comment}
-                Name={items.Name}
-                occupation={items.occupation}
-              />
-            );
-          })}
+          {testimonialsData.map((item) => (
+            <Testimonialscontent
+              key={item.Name}
+              Img={item.Img}
+              Comment={item.Comment}
+              Name={item.Name}
+              occupation={item.occupation}
+            />
+          ))}
         </div>
       </div>
     </section>

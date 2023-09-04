@@ -1,10 +1,10 @@
 import React from "react";
-import Homepart1Section from "../components/Home/Homepart1Section";
+import Heading from "../components/Heading/Heading";
 
 function Project() {
   return (
     <>
-      <Homepart1Section />
+      <Heading />
     </>
   );
 }

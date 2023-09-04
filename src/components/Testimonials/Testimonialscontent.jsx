@@ -1,7 +1,7 @@
 import React from "react";
-import { FaQuoteLeft } from "react-icons/fa"; // Import the Quote Left icon from React Icons
+import { FaQuoteLeft } from "react-icons/fa";
 
-function Testimonialscontent(Img, Comment, Name, occupation) {
+function Testimonialscontent({ Img, Comment, Name, occupation }) {
   return (
     <>
       <div className="p-4 md:w-1/2 w-full">

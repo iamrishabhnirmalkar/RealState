@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "/Image/logo.svg";
+import Logo from "/Image/logo-foot.svg";
 import {
   FaFacebook,
   FaDiscord,

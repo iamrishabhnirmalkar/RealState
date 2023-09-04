@@ -46,11 +46,11 @@ function Header() {
         <div
           className={`${nav ? "block" : "hidden"} w-full   md:w-auto md:flex`}
         >
-          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 md:border-0">
+          <ul className="font-medium  flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 md:border-0">
             {navlinks.map((link, index) => (
               <li
-                key={index}
-                className="py-2 pl-3 pr-4 rounded hover:text-third"
+                key={link.path}
+                className="py-2 pl-3 pr-4 rounded font-bold hover:text-third"
               >
                 <Link to={link.path}>{link.display}</Link>
               </li>

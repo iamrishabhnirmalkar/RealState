@@ -55,6 +55,7 @@ function TeamSection() {
             {teamMembers.map((items) => {
               return (
                 <Teamcontainer
+                  key={items.link}
                   img={items.img}
                   name={items.name}
                   para={items.para}
