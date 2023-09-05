@@ -4,46 +4,55 @@ import PropertyCard from "../PropertyCard/PropertyCard";
 function Property() {
   const properties = [
     {
-      title: "Home In Merrick Way",
+      title: "Windchimes",
       description:
-        "Enchanting three bedrooms, three bath home with spacious one bedroom, one bath...",
-      bedrooms: 3,
-      bathrooms: 3,
-      area: 4300,
-      price: 540000,
+        "WindChimes, we are set to bring in 2 BHK, 2.5 BHK, 3 BHK, and 4 BHK homes which are designed to provide a very comfortable, convenient, and elegant lifestyle to our customers.",
+      Year: "Upcomming",
+      area: 3,
+      RERA: "PGRERA071122001547",
       imageUrl:
         "https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271__340.jpg",
     },
     {
-      title: "Villa In Alexandria",
+      title: "Power Emperia Gold",
       description:
-        "Enjoy serenity of Deering Bay whole day from this spectacular North and...",
-      bedrooms: 3,
-      bathrooms: 3.5,
-      area: 3500,
-      price: 825000,
+        "Power Emperia Gold depicts the address for connoisseurs of luxurious urban lifestyle, the broad open decks make way for natural light pleasant breeze and breathtakingly beautiful views.",
+      Year: "About to finish",
+      area: 3,
+      RERA: "PCGRERA290121001188",
       imageUrl:
         "https://cdn.pixabay.com/photo/2014/07/31/00/30/vw-beetle-405876__340.jpg",
     },
     {
-      title: "Villa In Cairo",
+      title: "Swarna City",
       description:
-        "The very best waterfront location in Tahrir square and beside many cool places",
-      bedrooms: 3,
-      bathrooms: 2,
-      area: 1800,
-      price: 410000,
+        "Swarna City is a commercial development of Power Group, which offers extensive mercantile apartments.You'll love the slick modern design and the location that's convenient for all your needs. .",
+      Year: "2016-2018",
+      area: 3,
+      RERA: "PCGRERA130618000134",
       imageUrl:
-        "https://cdn.pixabay.com/photo/2016/11/18/17/46/house-1836070__340.jpg",
+        "https://cdn.pixabay.com/photo/2014/07/31/00/30/vw-beetle-405876__340.jpg",
     },
   ];
   return (
     <>
-      <div className="container mx-auto mt-16 px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {properties.map((property) => (
-            <PropertyCard key={property.title} {...property} />
-          ))}
+      <div className="bg-primary body-font">
+        <div className="container px-5 py-24 mx-auto">
+          <h1 className="text-4xl font-extrabold title-font text-secondary mb-12 text-center">
+            Our featured projects
+          </h1>
+          <p className="text-gray sm:text-xl text-center">
+            Don't let the location get all of you. Choose a lifestyle where you
+            can readily enjoy a life filled with all the modern-day amenities
+            with us.
+          </p>
+        </div>
+        <div className="container mx-auto mt-16 px-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {properties.map((property) => (
+              <PropertyCard key={property.title} {...property} />
+            ))}
+          </div>
         </div>
       </div>
     </>

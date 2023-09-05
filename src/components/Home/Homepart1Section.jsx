@@ -1,4 +1,6 @@
 import React from "react";
+import "../../style.css";
+import "../../index.css";
 
 function Homepart1Section() {
   return (

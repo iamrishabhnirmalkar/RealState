@@ -23,24 +23,22 @@ function Trust() {
   ];
   return (
     <>
-      <section className="bg-secondary ">
+      <div className="bg-secondary ">
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
           <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray">
+            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white">
               Why they trust us
             </h2>
-            <p className="text-white sm:text-xl ">
-              We set the bar high for ourselves to create a better environment,
+            <p className="text-gray sm:text-xl ">
+              Our core values are driven by creating a better environment,
               infrastructure, and space for a healthier lifestyle for people
-              everywhere. Our core values are driven by creating a better
-              environment, infrastructure, and space for a healthier lifestyle
-              for people everywhere.
+              everywhere.
             </p>
           </div>
-          <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
-            {services.map((service, index) => (
-              <div key={service.title}>
-                <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-third lg:h-12 lg:w-12 ">
+          <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0 text-center">
+            {services.map((service) => (
+              <div key={service.title} className="flex flex-col items-center">
+                <div className="flex items-center justify-center w-10 h-10 rounded-full bg-third mb-4">
                   {service.icon}
                 </div>
                 <h3 className="mb-2 text-xl font-bold text-white">
@@ -51,7 +49,7 @@ function Trust() {
             ))}
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 }

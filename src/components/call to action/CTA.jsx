@@ -1,4 +1,6 @@
 import React from "react";
+import "../../style.css";
+import "../../index.css";
 
 function CTA() {
   return (
@@ -9,7 +11,7 @@ function CTA() {
             Connect with us today!
           </h2>
           <p className="mb-6 font-light text-gray md:text-lg">
-            So, what are you waiting for? Click on the link below to connect
+            So, what are you waiting for? Click on the Button below to connect
             with us now!
           </p>
           <a

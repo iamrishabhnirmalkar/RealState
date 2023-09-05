@@ -1,5 +1,7 @@
 import React from "react";
 import { FaQuoteLeft } from "react-icons/fa";
+import "../../style.css";
+import "../../index.css";
 
 function Testimonialscontent({ Img, Comment, Name, occupation }) {
   return (

@@ -1,5 +1,7 @@
 import React from "react";
 import { FaLinkedinIn, FaFacebook } from "react-icons/fa6";
+import "../../style.css";
+import "../../index.css";
 
 function Teamcontainer({ img, name, para, position, fb, link }) {
   return (
