@@ -36,7 +36,7 @@ function Property() {
   ];
   return (
     <>
-      <div className="bg-primary body-font">
+      <div className="bg-primary">
         <div className="container px-5 py-24 mx-auto">
           <h1 className="text-4xl font-extrabold title-font text-secondary mb-12 text-center">
             Our featured projects

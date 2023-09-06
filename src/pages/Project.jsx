@@ -3,7 +3,6 @@ import Heading from "../components/Heading/Heading";
 import CTA from "../components/call to action/CTA";
 import Projectheading from "../components/Heading/Projectheading";
 import ProjectBox from "../components/PorjectCompo/ProjectBox";
-import Box from "../components/PorjectCompo/Box";
 
 function Project() {
   return (
@@ -11,7 +10,7 @@ function Project() {
       <Heading />
       <Projectheading />
       <ProjectBox />
-      <Box />
+
       <CTA />
     </>
   );
