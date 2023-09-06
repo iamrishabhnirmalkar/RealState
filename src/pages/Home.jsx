@@ -5,6 +5,7 @@ import Trust from "../components/Feature/Trust";
 import Testimonials from "../components/Testimonials/Testimonials";
 import Property from "../components/PropertyCard/Property";
 import Timeline from "../components/Timeline/Timeline";
+import Service from "../components/ServiceCompo/Service";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <Property />
       <Trust />
       <Testimonials />
+      <Service />
       {/* <Timeline /> */}
       <CTA />
     </>
