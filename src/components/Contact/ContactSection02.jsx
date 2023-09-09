@@ -33,7 +33,7 @@ const ContactSection02 = () => {
             <p className="mt-2 text-sm text-gray ">
               Speak to our friendly team.
             </p>
-            <a href="">
+            <a href="mailto:powergroupcg@gmail.com">
               <p className="mt-2 text-sm text-white">powergroupcg@gmail.com</p>
             </a>
           </div>
@@ -68,10 +68,10 @@ const ContactSection02 = () => {
             </span>
             <h2 className="mt-4 text-base font-medium text-gray ">Call us</h2>
             <p className="mt-2 text-sm text-gray ">Mon-Sun from 8am to 8pm.</p>
-            <a href="tel:7566-55-3355">
+            <a href="tel:7566553355">
               <p className="mt-2 text-sm text-white">7566-55-3355</p>
             </a>
-            <a href="tel:8010-43-8010">
+            <a href="tel:8010438010">
               <p className="mt-2 text-sm text-white">8010-43-8010</p>
             </a>
           </div>

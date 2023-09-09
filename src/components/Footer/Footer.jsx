@@ -29,12 +29,18 @@ const Footer = () => {
               </h2>
               <ul className="text-gray font-medium">
                 <li className="mb-4">
-                  <a href="/" className="hover:underline">
+                  <a
+                    href="../../pages/PrivacyPolicy.Jsx"
+                    className="hover:underline"
+                  >
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="/" className="hover:underline">
+                  <a
+                    href="../../pages/TermsConditions.jsx"
+                    className="hover:underline"
+                  >
                     Terms &amp; Conditions
                   </a>
                 </li>

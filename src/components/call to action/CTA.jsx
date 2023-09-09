@@ -15,7 +15,7 @@ function CTA() {
             with us now!
           </p>
           <a
-            href="tel:7803002963"
+            href="tel:+918010438010"
             className="text-white bg-third hover:bg-secondary focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2   "
           >
             Call Now

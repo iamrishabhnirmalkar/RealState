@@ -12,7 +12,7 @@ function Form() {
           </label>
           <input
             type="text"
-            placeholder="John Doe"
+            placeholder="Rishabh Nirmalkar"
             className="mt-1 px-4 py-2 w-full border rounded-md shadow-sm focus:ring-blue-400 focus:border-blue-400"
           />
         </div>
@@ -32,7 +32,7 @@ function Form() {
           </label>
           <input
             type="email"
-            placeholder="johndoe@example.com"
+            placeholder="Iamrishabhnirmalkar@gmail.com"
             className="mt-1 px-4 py-2 w-full border rounded-md shadow-sm focus:ring-blue-400 focus:border-blue-400"
           />
         </div>

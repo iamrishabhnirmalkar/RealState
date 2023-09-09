@@ -4,7 +4,6 @@ import Homepart1Section from "../components/Home/Homepart1Section";
 import Trust from "../components/Feature/Trust";
 import Testimonials from "../components/Testimonials/Testimonials";
 import Property from "../components/PropertyCard/Property";
-import Timeline from "../components/Timeline/Timeline";
 import Service from "../components/ServiceCompo/Service";
 
 function Home() {
@@ -15,7 +14,7 @@ function Home() {
       <Trust />
       <Testimonials />
       <Service />
-      {/* <Timeline /> */}
+
       <CTA />
     </>
   );
