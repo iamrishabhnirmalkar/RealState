@@ -1,37 +1,44 @@
-# Power Group
+# Power Group - Real Estate Project
 
-A Power Group is the real state 
+Power Group is a prestigious real estate developer in Chhattisgarh, committed to delivering excellence in the real estate sector.
 
 ## Table of Contents
 
-- [Project Title](#project-title)
-  - [Table of Contents](#table-of-contents)
-  - [Description](#description)
-  - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [License](#license)
-  - [Acknowledgments](#acknowledgments)
+- [Description](#description)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
 
 ## Description
 
-Provide a concise and clear overview of your project. Explain what it does, its purpose, and any key features.
+Power Group is one of the leading real estate developers in Chhattisgarh. Our commitment to excellence drives us to employ only the best professionals, ensuring our customers' success.
 
 ## Getting Started
 
-Explain how to get started with your project. This section should cover prerequisites and installation instructions.
+To get started with the Power Group Real Estate project, follow these steps:
 
 ### Prerequisites
 
-List any software, libraries, or dependencies that users need to have installed before they can use your project.
+Before you begin, ensure you have the following prerequisites:
+
+- [Node.js](https://nodejs.org/) 
+- [Tailwind CSS](https://tailwindcss.com/)
+- [VS Code](https://code.visualstudio.com/) or your preferred IDE
 
 ### Installation
 
+1. Clone the project repository:
 
+   ```bash
+   $ git clone https://github.com/iamrishabhnirmalkar/RealState.git
+   $ cd RealState
+   
+2. Install the project dependencies:
+   ```bash
+   $ npm install
 
-```bash
-$ git clone https://github.com/yourusername/yourproject.git
-$ cd yourproject
-$ npm install
+3. Start the development server:
+
+   ```bash
+   $ npm run dev
+
