@@ -22,7 +22,8 @@ To get started with the Power Group Real Estate project, follow these steps:
 
 Before you begin, ensure you have the following prerequisites:
 
-- [Node.js](https://nodejs.org/) 
+- [Vitejs]([https://vitejs.dev/)
+- [Node.js](https://nodejs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [VS Code](https://code.visualstudio.com/) or your preferred IDE
 
