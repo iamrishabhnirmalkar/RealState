@@ -1,6 +1,6 @@
-# Project Title
+# Power Group
 
-A brief description of your project.
+A Power Group is the real state 
 
 ## Table of Contents
 
@@ -29,7 +29,7 @@ List any software, libraries, or dependencies that users need to have installed 
 
 ### Installation
 
-Provide step-by-step instructions on how to install your project. You can use code blocks to show commands or configurations.
+
 
 ```bash
 $ git clone https://github.com/yourusername/yourproject.git
