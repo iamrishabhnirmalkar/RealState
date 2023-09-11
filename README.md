@@ -1,6 +1,5 @@
-Project README
-Project Name
-[Your Project Name]
+#Power Group
+
 
 Description
 Provide a concise and clear description of your project. Explain what the project does, its purpose, and any problems it solves. Make sure to answer the following questions:
